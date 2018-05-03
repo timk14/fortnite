@@ -14,6 +14,7 @@
 		82F88861209B868C0055E824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F8885F209B868C0055E824 /* LaunchScreen.storyboard */; };
 		82F8886C209B868C0055E824 /* fortniteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F8886B209B868C0055E824 /* fortniteTests.swift */; };
 		82F88877209B868C0055E824 /* fortniteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F88876209B868C0055E824 /* fortniteUITests.swift */; };
+		82F88885209B87700055E824 /* menuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F88884209B87700055E824 /* menuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		82F88872209B868C0055E824 /* fortniteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fortniteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F88876209B868C0055E824 /* fortniteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fortniteUITests.swift; sourceTree = "<group>"; };
 		82F88878209B868C0055E824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F88884209B87700055E824 /* menuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				82F88856209B868C0055E824 /* AppDelegate.swift */,
 				82F88858209B868C0055E824 /* ViewController.swift */,
 				82F8885A209B868C0055E824 /* Main.storyboard */,
+				82F88884209B87700055E824 /* menuController.swift */,
 				82F8885D209B868C0055E824 /* Assets.xcassets */,
 				82F8885F209B868C0055E824 /* LaunchScreen.storyboard */,
 				82F88862209B868C0055E824 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82F88859209B868C0055E824 /* ViewController.swift in Sources */,
+				82F88885209B87700055E824 /* menuController.swift in Sources */,
 				82F88857209B868C0055E824 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
